@@ -21,14 +21,14 @@ To design and implement a database management system that supports an English le
 - Platform: Any SQL environment (MySQL Workbench, Oracle, or VS Code SQL extension)
 
 ## Database Design
-** Entities **
+**Entities**
 - Users: Stores learner information.
 - Vocabulary: Holds words, definitions, and parts of speech.
 - Grammar_Rules: Contains grammar concepts and examples.
 - User_Progress: Tracks user performance and responses.
 - Lesson_History: Records lesson summaries and focus areas.
 
-** Relationships **
+**Relationships**
 
 A user can have many progress records and lesson histories.
 Each vocabulary word and grammar rule can appear in multiple progress entries.
@@ -37,15 +37,15 @@ Each vocabulary word and grammar rule can appear in multiple progress entries.
 # DDL (Data Definition Language)
 Creating tables with constraints (PK, FK, NOT NULL, UNIQUE, CHECK).
 
-** DML (Data Manipulation Language) **
+**DML (Data Manipulation Language)**
 - Inserting, updating, and deleting data.
 - Querying data with SELECT statements.
 
-** Joins & Subqueries**
+**Joins & Subqueries**
 - Retrieving related data across multiple tables.
 - Identifying weak vocabulary or grammar areas for each user.
 
-** Analytical Queries**
+**Analytical Queries**
 Calculating user accuracy, total attempts, and progress summaries.
 
 
