@@ -34,7 +34,7 @@ A user can have many progress records and lesson histories.
 Each vocabulary word and grammar rule can appear in multiple progress entries.
 
 ## SQL Features Demonstrated
-# DDL (Data Definition Language)
+**DDL (Data Definition Language)**
 Creating tables with constraints (PK, FK, NOT NULL, UNIQUE, CHECK).
 
 **DML (Data Manipulation Language)**
